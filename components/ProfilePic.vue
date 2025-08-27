@@ -4,7 +4,7 @@
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div>
         <h1 class="text-3xl md:text-5xl font-bold">Front-End Developer</h1>
-        <p class="mt-4 text-gray-600">
+        <p class="mt-4 text-gray-300">
           I build fast, responsive, and user‑friendly web apps using Nuxt.js, Vue.js, and Tailwind CSS.
         </p>
         <div class="mt-6 flex gap-3">
@@ -13,9 +13,9 @@
         </div>
       </div>
       <div class="hidden md:block">
-        <div class="aspect-square rounded-2xl border grid place-items-center">
+        <div class="aspect-square rounded-2xl border grid place-items-center max-h-[450px] w-[350px]">
           <!-- <span class="text-sm text-gray-500">Your Photo / Logo</span> -->
-          <img src="/images/pic.jpg" alt="Your Name" class="object-cover rounded-2xl" />
+          <img src="/images/pic.jpg" alt="Your Name" class="object-cover rounded-2xl max-h-[450px]" />
         </div>
       </div>
     </div>
